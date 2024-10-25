@@ -6,19 +6,20 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 main {
     display: flex;
     height: 100vh;
+    background-color: #f7fafd;
 }
 
 .image {
-    background-image: url('/assets/images/nature_image.jpg');
+    background-image: url('/assets/images/halie_west.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,6 +30,7 @@ main {
 
 .image div {
     font-family: norseBold, 'Arial', sans-serif;
+    width: 400px;
     font-size: 3.5rem;
     background-color: rgba(0, 0, 0, 0.7);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
@@ -44,4 +46,67 @@ main {
 .image p {
     color: white;
     font-size: 0.8rem;
+}
+
+.header {
+    padding: 150px 100px 60px 40px;
+}
+
+.header p {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.header p:nth-child(3) {
+    padding-top: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px 100px 15px 40px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+button {
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 40px;
+}
+
+.footer {
+    margin-left: 40px;
+}
+
+.footer span {
+    color: #596D48;
+}
+
+.form-container {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-container div {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+input {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
