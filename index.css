@@ -1,6 +1,6 @@
 @font-face {
     font-family: norseBold;
-    src: url('/assets/fonts/Norse-Bold.otf');
+    src: url('assets/fonts/Norse-Bold.otf');
 }
 
 * {
@@ -16,7 +16,7 @@ main {
 }
 
 .image {
-    background-image: url('/assets/images/halie_west.jpg');
+    background-image: url('assets/images/halie-west.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
